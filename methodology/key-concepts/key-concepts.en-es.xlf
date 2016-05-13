@@ -368,7 +368,7 @@
   <target xml:lang="es"></target>
 </trans-unit>
 <trans-unit id="86">
-  <source xml:lang="en">templates — BEMHTML, BH, Jade, Handlebars, XSL</source>
+  <source xml:lang="en">templates — BEMHTML, BH, Pug, Handlebars, XSL</source>
   <target xml:lang="es"></target>
 </trans-unit>
 <trans-unit id="87">
