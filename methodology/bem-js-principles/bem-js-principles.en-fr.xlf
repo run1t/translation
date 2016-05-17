@@ -10,211 +10,211 @@
     <body>
 <trans-unit id="1">
   <source xml:lang="en">JavaScript implementation using the BEM methodology</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Implémentation JavaScript utilisant la méthodologie BEM</target>
 </trans-unit>
 <trans-unit id="2">
   <source xml:lang="en"><bpt id="l1">[</bpt>Declarative style<ept id="l1">]</ept><bpt id="l2">(</bpt>#Declarative-style<ept id="l2">)</ept></source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr"><bpt id="l1">[</bpt>Le style Déclaratif<ept id="l1">]</ept><bpt id="l2">(</bpt>#Declarative-style<ept id="l2">)</ept></target>
 </trans-unit>
 <trans-unit id="3">
   <source xml:lang="en"><bpt id="l1">[</bpt>OOP principles in JavaScript for BEM<ept id="l1">]</ept><bpt id="l2">(</bpt>#OOP-principles-in-javascript-for-BEM<ept id="l2">)</ept></source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr"><bpt id="l1">[</bpt>Principes de la POO pour BEM<ept id="l1">]</ept><bpt id="l2">(</bpt>#OOP-principles-in-javascript-for-BEM<ept id="l2">)</ept></target>
 </trans-unit>
 <trans-unit id="4">
   <source xml:lang="en"><bpt id="l1">[</bpt>DOM representation of dynamic blocks<ept id="l1">]</ept><bpt id="l2">(</bpt>#dom-representation-of-dynamic-blocks<ept id="l2">)</ept></source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr"><bpt id="l1">[</bpt>Représentation du DOM des blocs dynamiques<ept id="l1">]</ept><bpt id="l2">(</bpt>#dom-representation-of-dynamic-blocks<ept id="l2">)</ept></target>
 </trans-unit>
 <trans-unit id="5">
   <source xml:lang="en"><bpt id="l1">[</bpt>Interaction between blocks<ept id="l1">]</ept><bpt id="l2">(</bpt>#Interaction-between-blocks<ept id="l2">)</ept></source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr"><bpt id="l1">[</bpt>Intéraction entre les blocs<ept id="l1">]</ept><bpt id="l2">(</bpt>#Interaction-between-blocks<ept id="l2">)</ept></target>
 </trans-unit>
 <trans-unit id="6">
   <source xml:lang="en"><bpt id="l1">[</bpt>Interaction of a block with its elements<ept id="l1">]</ept><bpt id="l2">(</bpt>#Interaction-of-block-with-its-elements<ept id="l2">)</ept></source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr"><bpt id="l1">[</bpt>Intéraction d'un bloc avec ses éléments<ept id="l1">]</ept><bpt id="l2">(</bpt>#Interaction-of-block-with-its-elements<ept id="l2">)</ept></target>
 </trans-unit>
 <trans-unit id="7">
   <source xml:lang="en">Declarative style</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Le style Déclaratif</target>
 </trans-unit>
 <trans-unit id="8">
   <source xml:lang="en">Declarative JavaScript in a BEM project is shown by the following:</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Le JavaSript déclaratif dans un projet BEM est décrit par ce qui suit:</target>
 </trans-unit>
 <trans-unit id="9">
   <source xml:lang="en">The behavior of each block is described separately.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Le comportement de chaque bloc est décrit séparement.</target>
 </trans-unit>
 <trans-unit id="10">
   <source xml:lang="en">The block states are set declaratively.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Les états d'un bloc sont définis de manière déclaratif.</target>
 </trans-unit>
 <trans-unit id="11">
   <source xml:lang="en">When <bpt id="l2">[</bpt>changing states<ept id="l2">]</ept><bpt id="l3">(</bpt>#Reaction-to-changing-modifiers<ept id="l3">)</ept>, the code is automatically called that is declared for this state.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Quand <bpt id="l2">[</bpt>les états sont changés <ept id="l2">]</ept><bpt id="l3">(</bpt>#Reaction-to-changing-modifiers<ept id="l3">)</ept>, le code appele automatiquement ce qui a été déclaré pour cet état.</target>
 </trans-unit>
 <trans-unit id="12">
   <source xml:lang="en">The block’s logic is described as a set of actions and conditions for performing these actions.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">La logique d'un bloc est décrite comme un ensemble d'actions ou de contitions dans le but d'exécuter ces actions.</target>
 </trans-unit>
 <trans-unit id="13">
   <source xml:lang="en">This makes it possible to separate the block’s functionality into individual parts and use <bpt id="l2">[</bpt>redefinition levels<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#redefinition-level<ept id="l3">)</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Ce qui rends possible la séparation des fonctionnalités d'un bloc en parties individuelles et l'utilisation des <bpt id="l2">[</bpt>niveaux de redéfintions<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.fr.md#redefinition-level<ept id="l3">)</ept>.</target>
 </trans-unit>
 <trans-unit id="14">
   <source xml:lang="en"><bpt id="l1">[</bpt>More information about applying redefinition levels in JavaScript<ept id="l1">]</ept><bpt id="l2">(</bpt>#Working-with-redefinition-levels<ept id="l2">)</ept></source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr"><bpt id="l1">[</bpt>Plus d'information sur l'application des niveaux de redéfintions en JavaScript<ept id="l1">]</ept><bpt id="l2">(</bpt>#Working-with-redefinition-levels<ept id="l2">)</ept></target>
 </trans-unit>
 <trans-unit id="15">
   <source xml:lang="en">OOP principles in JavaScript for BEM</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Principes de la POO pour BEM</target>
 </trans-unit>
 <trans-unit id="16">
   <source xml:lang="en">In the BEM methodology, the basic principles of object-oriented programming (OOP) are applied to JavaScript.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Avec la méthodologie BEM, les principes de la programmation orienté (POO) sont utilisé pour JavaScript.</target>
 </trans-unit>
 <trans-unit id="17">
   <source xml:lang="en">Encapsulation</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Encapsulation</target>
 </trans-unit>
 <trans-unit id="18">
   <source xml:lang="en">In BEM, the JavaScript implementation of one block is separated from another block.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Avec BEM, l'implémentation JavaScript d'un block est séparé d'un autre bloc.</target>
 </trans-unit>
 <trans-unit id="19">
   <source xml:lang="en">Each block provides an API for <bpt id="l2">[</bpt>interacting with other blocks<ept id="l2">]</ept><bpt id="l3">(</bpt>#Interaction-between-blocks<ept id="l3">)</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Chaque bloc fourni une API pour <bpt id="l2">[</bpt>Communiquer avec les autres blocs<ept id="l2">]</ept><bpt id="l3">(</bpt>#Interaction-between-blocks<ept id="l3">)</ept>.</target>
 </trans-unit>
 <trans-unit id="20">
   <source xml:lang="en">The block declaration allows it to hide its internal implementation.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">La déclaration d'un bloc permet de cacher son implémentation interne.</target>
 </trans-unit>
 <trans-unit id="21">
   <source xml:lang="en">Since elements are always an internal implementation of a block, <bpt id="l2">[</bpt>they can be accessed<ept id="l2">]</ept><bpt id="l3">(</bpt>#Interaction-between-block-and-its-elements<ept id="l3">)</ept> only through the block’s API.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Étant donné que les éléments sont implémenté en interne dans un bloc, <bpt id="l2">[</bpt>ils peuvent être accessible <ept id="l2">]</ept><bpt id="l3">(</bpt>#Interaction-between-block-and-its-elements<ept id="l3">)</ept> seulement via l'API du block.</target>
 </trans-unit>
 <trans-unit id="22">
   <source xml:lang="en">Inheritance</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Héritage</target>
 </trans-unit>
 <trans-unit id="23">
   <source xml:lang="en">The declarative description of block behavior makes it possible to use the methods of a base block inside a derivative block and inherit them.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">La description déclarative du comportement d'un bloc rends possible l'utilisation des méthodes issue d'un bloc parent.</target>
 </trans-unit>
 <trans-unit id="24">
   <source xml:lang="en">The new block can get all the properties and methods of the base block.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Le nouveau bloc a toutes les propriétées et méthodes du bloc de base.</target>
 </trans-unit>
 <trans-unit id="25">
   <source xml:lang="en">You can also create inheritance chains, meaning that a block inherits from another one that, in turn, inherits from a third block, and so on.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Vous pouvez également créer des chaînes d'héritage , ce qui signifie qu'un bloc héritant d'un autre bloc peut, à son tour, hériter d'un troisième bloc, et ainsi de suite.</target>
 </trans-unit>
 <trans-unit id="26">
   <source xml:lang="en">For implementation examples, see the documentation for <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js-decl/#block-inheritance<ept id="l3">)</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Pour des exemples d'implémentation, veuillez vous référer à la documenation: <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js-decl/#block-inheritance<ept id="l3">)</ept>.</target>
 </trans-unit>
 <trans-unit id="27">
   <source xml:lang="en">DOM representation of dynamic blocks</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Représentation du DOM des blocs dynamiques</target>
 </trans-unit>
 <trans-unit id="28">
   <source xml:lang="en">Blocks with JavaScript implementation can correspond to nodes in HTML.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Les blocs implémenté en JavaScripts peuvent correspondre à des noeud du DOM.</target>
 </trans-unit>
 <trans-unit id="29">
   <source xml:lang="en">We refer to this as the <bpt id="2">**</bpt>blocks having a DOM representation<ept id="2">**</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Nous faisons référence à ça en parlant de <bpt id="2">**</bpt>blocs ayant une représentation dans le DOM<ept id="2">**</ept>.</target>
 </trans-unit>
 <trans-unit id="30">
   <source xml:lang="en">In the simplest case, a block has a one-to-one relationship with a DOM node.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Pour faire simple, un bloc a une relation "un à un" avec le noeud du DOM.</target>
 </trans-unit>
 <trans-unit id="31">
   <source xml:lang="en">However, a DOM node and a block are not always equivalent.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Cependant, un noeud du DOM et un bloc ne sont pas toujours équivalents.</target>
 </trans-unit>
 <trans-unit id="32">
   <source xml:lang="en">You can put multiple blocks on the same DOM node (this is called a <bpt id="l2">[</bpt>mix<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#Mix<ept id="l3">)</ept>), or implement a single block on multiple DOM nodes.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Vous pouvez mettre plusieurs blocs sur le même noeud du DOM (ce qui donne un <bpt id="l2">[</bpt>mix<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.fr.md#Mix<ept id="l3">)</ept>), ou implémenté un seul bloc sur plusieurs noeud du DOM.</target>
 </trans-unit>
 <trans-unit id="33">
   <source xml:lang="en">There are also <bpt id="2">**</bpt>blocks without DOM representation<ept id="2">**</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Il y aussi des <bpt id="2">**</bpt>bloc sans représentation dans le DOM<ept id="2">**</ept>.</target>
 </trans-unit>
 <trans-unit id="34">
   <source xml:lang="en">In JavaScript, they are presented as objects with their own methods.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">En JavaScript, ils sont représenté en tant qu'objets ayant leur propre méthodes.</target>
 </trans-unit>
 <trans-unit id="35">
   <source xml:lang="en">For implementation examples, see the documentation for <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js-decl/#declaration-syntax<ept id="l3">)</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Pour des exemples d'implémentation, veuillez vous référer à la documenation: <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js-decl/#block-inheritance<ept id="l3">)</ept>.</target>
 </trans-unit>
 <trans-unit id="36">
   <source xml:lang="en">Interaction between blocks</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Intéraction entre les blocs</target>
 </trans-unit>
 <trans-unit id="37">
   <source xml:lang="en">The BEM methodology involves working with independent blocks.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">La méthodologie BEM implique de travailler avec des blocs indépendant.</target>
 </trans-unit>
 <trans-unit id="38">
   <source xml:lang="en">But in practice, blocks can’t be completely independent of each other.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Mais en pratique, les blocs ne peuvent être complétement indépendant les un des autres.</target>
 </trans-unit>
 <trans-unit id="39">
   <source xml:lang="en">Blocks can interact with each other using:</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Les blocs peuvent intéragir entre eux en utilisant:</target>
 </trans-unit>
 <trans-unit id="40">
   <source xml:lang="en">Subscriptions to events of other block instances.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Un abonnement aux évenements des autres instances des blocs.</target>
 </trans-unit>
 <trans-unit id="41">
   <source xml:lang="en">Subscriptions to changes in modifiers.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Un abonnement aux changement des modifieurs.</target>
 </trans-unit>
 <trans-unit id="42">
   <source xml:lang="en">Direct calls to the methods of other block instances or the static methods of another block’s class.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Des appelles direct au méthodes des instances d'autres blocs ou méthodes statiques d'autres classes de blocs.</target>
 </trans-unit>
 <trans-unit id="43">
   <source xml:lang="en">Any interaction patterns.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">L'ensemble des schémas d'intéractions.</target>
 </trans-unit>
 <trans-unit id="44">
   <source xml:lang="en">For example, the event channel: all communication takes place through messages that components publish and listen to using an intermediary.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Par exemple, l'abonnement aux événements: toute communication a lieu par le biais de messages que les composants publient et écoutent à l'aide d'un intermédiaire.</target>
 </trans-unit>
 <trans-unit id="45">
   <source xml:lang="en">For implementation examples, see the documentation for <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js-decl/#i-bem-js-interaction<ept id="l3">)</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Pour des exemples d'implémentation, veuillez vous référer à la documenation: <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js-decl/#block-inheritance<ept id="l3">)</ept>.</target>
 </trans-unit>
 <trans-unit id="46">
   <source xml:lang="en">The BEM methodology recommends arranging interaction between the blocks hierarchically according to their location in the DOM tree.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">La méthodologie BEM recommande d'organiser les intéractions entre les blocs de façon hiérarchique par rapport a leur location dans l'arbre du DOM.</target>
 </trans-unit>
 <trans-unit id="47">
   <source xml:lang="en">A nested block shouldn’t know anything about the parent block, since this would violate the principle of independent components.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Un bloc imbriqué devrait ne rien savoir sur son bloc parent, car ceci violerait le principe d'indépence des composants.</target>
 </trans-unit>
 <trans-unit id="48">
   <source xml:lang="en">Interaction of a block with its elements</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Intéraction d'un bloc avec ses éléments.</target>
 </trans-unit>
 <trans-unit id="49">
   <source xml:lang="en">An element is the internal implementation of a block.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Un élément est implémenté en interne dans un bloc.</target>
 </trans-unit>
 <trans-unit id="50">
   <source xml:lang="en">In the BEM methodology, a block normally has additional helpers for working with its elements.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Avec la méthodologie BEM, un bloc a normalement des "helpers" supplémentaires pour travailler avec ses éléments.</target>
 </trans-unit>
 <trans-unit id="51">
   <source xml:lang="en">It is not possible to access an element of another block directly.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Si ce n'est pas possible d'accéder a un élément d'un autre bloc directement.</target>
 </trans-unit>
 <trans-unit id="52">
   <source xml:lang="en">An element can be accessed only through the API of the block that this element belongs to.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">On peut accéeder a cet élément seulement via l'API du bloc auquel apartient cet élement.</target>
 </trans-unit>
     </body>
  </file>
