@@ -10,35 +10,35 @@
     <body>
 <trans-unit id="1">
   <source xml:lang="en">BEM project building methodology</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Methodologie de compilation d'un projet BEM</target>
 </trans-unit>
 <trans-unit id="2">
   <source xml:lang="en">Any project developed using the BEM methodology has a multi-level file structure.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Tout les projets dévelopé avec la méthodologie BEM on une structure de fichiers sur différents niveaux.</target>
 </trans-unit>
 <trans-unit id="3">
   <source xml:lang="en">Such a structure results from the component-based approach.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Une telle structure permet d'avoir une approche basé sur les composant.</target>
 </trans-unit>
 <trans-unit id="4">
   <source xml:lang="en">In BEM, <bpt id="l2">[</bpt>blocks<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#block<ept id="l3">)</ept> can be implemented in one or more <bpt id="l4">[</bpt>technologies<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.en.md#implementation-technology<ept id="l5">)</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Avec BEM, <bpt id="l2">[</bpt>les blocs<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.fr.md#block<ept id="l3">)</ept> peuvent être implémenté avec une ou plusieurs <bpt id="l4">[</bpt>technologies<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.fr.md#implementation-technology<ept id="l5">)</ept>.</target>
 </trans-unit>
 <trans-unit id="5">
   <source xml:lang="en">Each technology is stored in a separate file.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Chaque technologie est stocké dans un fichier séparé.</target>
 </trans-unit>
 <trans-unit id="6">
   <source xml:lang="en">Consequently, a build process is required in order to obtain general project files from individual files.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">En conséquence, un système de compilation est requis dans le but de générer les fichiers du projet final à partir des fichiers individuels.</target>
 </trans-unit>
 <trans-unit id="7">
   <source xml:lang="en">You can use any of the available <bpt id="l2">[</bpt>build tools<ept id="l2">]</ept><bpt id="l3">(</bpt>#build-tools<ept id="l3">)</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Vous pouvez utiliser tout les <bpt id="l2">[</bpt>outils de compilations<ept id="l2">]</ept><bpt id="l3">(</bpt>#build-tools<ept id="l3">)</ept>.</target>
 </trans-unit>
 <trans-unit id="8">
   <source xml:lang="en">Here is an example of a file structure organization of a BEM project:</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Voici un example d'organisation des fichiers dans un projet BEM:</target>
 </trans-unit>
 <trans-unit id="9">
   <source xml:lang="en">blocks/               # Project level
@@ -51,100 +51,114 @@ library/              # Library level
   input/
     input.js          # `input` block basic implementation in JavaScript technology
   button/</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">blocks/               # Niveau du projet
+  input/              # Répértoire du bloc `input` 
+    input.css         # Implémentation du bloc `input` avec la technologie CSS.
+    input.js          # Implémentation du bloc `input` avec la technologie Javascript.
+  icon/
+    icon.css
+library/              # Niveau de la bibliothèque
+  input/
+    input.js          # Implémentation du bloc `input` avec la technologie Javascript.
+  button/</target>
 </trans-unit>
 <trans-unit id="10">
-  <source xml:lang="en">To find out more about the reasons for dividing a block implementation into separate files, read <bpt id="l2">[</bpt>File system organizaation of a BEM project<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.en.md<ept id="l3">)</ept>.</source>
-  <target xml:lang="fr"></target>
+  <source xml:lang="en">To find out more about the reasons for dividing a block implementation into separate files, read <bpt id="l2">[</bpt>File system organization of a BEM project<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.en.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="fr">Pour mieux comprendre les raisons de diviser l'implémentation des blocs en plusieurs fichiers, lisez :<bpt id="l2">[</bpt>Système d'organisation des fichiers dans un projet BEM<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.fr.md<ept id="l3">)</ept>.</target>
 </trans-unit>
 <trans-unit id="11">
   <source xml:lang="en">The build process takes care of the following:</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Les points suivants sont important dans le processus de compilation:</target>
 </trans-unit>
 <trans-unit id="12">
   <source xml:lang="en">combines individual <bpt id="l2">[</bpt>implementation files<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.en.md#a-block-implementation-is-divided-into-separate-files<ept id="l3">)</ept> spread throughout the system.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Combiner <bpt id="l2">[</bpt>les fichiers d'implémentation<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.fr.md#a-block-implementation-is-divided-into-separate-files<ept id="l3">)</ept></target>
 </trans-unit>
 <trans-unit id="13">
   <source xml:lang="en">includes only the necessary blocks, <bpt id="l2">[</bpt>elements<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#element<ept id="l3">)</ept> and <bpt id="l4">[</bpt>modifiers<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.en.md#modifier<ept id="l5">)</ept> in the project, out of those contained in the file system;</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">n'inclure que les blocs, <bpt id="l2">[</bpt>les élements<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.fr.md#element<ept id="l3">)</ept> et <bpt id="l4">[</bpt> les modifieurs<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.fr.md#modifier<ept id="l5">)</ept> nécessaire au projet.</target>
 </trans-unit>
 <trans-unit id="14">
   <source xml:lang="en">ensures that the files are linked to the project in a correct order.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">S'assurer que les fichiers sont liées au projet dans le bonne ordre.</target>
 </trans-unit>
 <trans-unit id="15">
   <source xml:lang="en">Main stages of the build process</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Les principales étapes du système de compilation.</target>
 </trans-unit>
 <trans-unit id="16">
   <source xml:lang="en">In order to obtain a finished project part (build result), such as a web page, from individual files, we need to:</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Dans le but d'obtenir le résultat de la compilation, tel qu'une page web, à partir de fichiers individuels, nous devons:</target>
 </trans-unit>
 <trans-unit id="17">
   <source xml:lang="en"><bpt id="l1">[</bpt>list blocks, elements, and modifiers involved in the creation of the page<ept id="l1">]</ept><bpt id="l2">(</bpt>#determining-a-list-of-blocks-elements-and-modifiers-for-creating-a-page<ept id="l2">)</ept></source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr"><bpt id="l1">[</bpt>lister les blocs, les éléments et les modifieurs impliqué dans la création de la page<ept id="l1">]</ept><bpt id="l2">(</bpt>#determining-a-list-of-blocks-elements-and-modifiers-for-creating-a-page<ept id="l2">)</ept></target>
 </trans-unit>
 <trans-unit id="18">
   <source xml:lang="en"><bpt id="l1">[</bpt>specify dependencies for the BEM entities used on the page<ept id="l1">]</ept><bpt id="l2">(</bpt>#identifying-dependencies<ept id="l2">)</ept></source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr"><bpt id="l1">[</bpt>spécifier les dépendances des entitées BEM utilisé dans la page<ept id="l1">]</ept><bpt id="l2">(</bpt>#identifying-dependencies<ept id="l2">)</ept></target>
 </trans-unit>
 <trans-unit id="19">
   <source xml:lang="en"><bpt id="l1">[</bpt>combine the source files<ept id="l1">]</ept><bpt id="l2">(</bpt>#determining-the-order-of-including-bem-entities-in-the-build<ept id="l2">)</ept></source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr"><bpt id="l1">[</bpt>combiner les fichiers sources<ept id="l1">]</ept><bpt id="l2">(</bpt>#determining-the-order-of-including-bem-entities-in-the-build<ept id="l2">)</ept></target>
 </trans-unit>
 <trans-unit id="20">
   <source xml:lang="en">Build results</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Résultat de la compilation</target>
 </trans-unit>
 <trans-unit id="21">
   <source xml:lang="en">We can get different final sets of files as the outcome of the build:</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">A la fin de la compilation nous pouvons obtenir différents ensemble de fichiers:</target>
 </trans-unit>
 <trans-unit id="22">
   <source xml:lang="en">files for one particular page (e.g., <bpt id="2">`</bpt>hello.css<ept id="2">`</ept> and <bpt id="4">`</bpt>hello.js<ept id="4">`</ept>);</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">des fichiers pour des pages particulières du projet (ex: <bpt id="2">`</bpt>hello.css<ept id="2">`</ept> et <bpt id="4">`</bpt>hello.js<ept id="4">`</ept>); </target>
 </trans-unit>
 <trans-unit id="23">
   <source xml:lang="en">general files for the entire project (e.g., one <bpt id="2">`</bpt>project.css<ept id="2">`</ept> file and one <bpt id="4">`</bpt>project.js<ept id="4">`</ept> file);</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">des fichiers pour l'ensemble du projet (ex:  un fichier <bpt id="2">`</bpt>project.css<ept id="2">`</ept> et un fichier <bpt id="4">`</bpt>project.js<ept id="4">`</ept>);</target>
 </trans-unit>
 <trans-unit id="24">
   <source xml:lang="en">files for page components, such as <bpt id="2">`</bpt>header<ept id="2">`</ept> and <bpt id="4">`</bpt>footer<ept id="4">`</ept>, which are used on different pages of the project (e.g., <bpt id="6">`</bpt>header.css<ept id="6">`</ept> and <bpt id="8">`</bpt>header.js<ept id="8">`</ept>).</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">des fichiers pour des composants, tels que <bpt id="2">`</bpt>header<ept id="2">`</ept> et <bpt id="4">`</bpt>footer<ept id="4">`</ept>, qui sont utilisé dans différentes pages du projet (ex: <bpt id="6">`</bpt>header.css<ept id="6">`</ept> et <bpt id="8">`</bpt>header.js<ept id="8">`</ept>).</target>
 </trans-unit>
 <trans-unit id="25">
   <source xml:lang="en">The common part is built separately and linked during the build process.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">La partie commune est construite séparemment et liée au projet durant le processus de compilation.</target>
 </trans-unit>
 <trans-unit id="26">
   <source xml:lang="en">In the BEM methodology, such file sets resulting from the build process are commonly called <bpt id="2">**</bpt>bundles<ept id="2">**</ept>.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Dans la méthodologie BEM, les fichiers résultant de la compilation sont appelés <bpt id="2">**</bpt>bundles<ept id="2">**</ept>.</target>
 </trans-unit>
 <trans-unit id="27">
   <source xml:lang="en">Note that in this document the build process is illustrated on the example of a <bpt id="2">**</bpt>page<ept id="2">**</ept>, which is an instance of a bundle.</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Veuillez noter que dans ce document le processus de compilation est illustré avec un exemple de <bpt id="2">**</bpt>page<ept id="2">**</ept>, qui est une instance d'un bundle.</target>
 </trans-unit>
 <trans-unit id="28">
   <source xml:lang="en">In the file system, build results for individual files are placed in a default directory carrying the page name (e.g., <bpt id="2">`</bpt>hello<ept id="2">`</ept>):</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Dans le système de fichier, le résultat de la compilation est placé dans un dossier portant le nom de la page (ex: <bpt id="2">`</bpt>hello<ept id="2">`</ept>):</target>
 </trans-unit>
 <trans-unit id="29">
   <source xml:lang="en">blocks/       # Directory containing the blocks
 bundles/      # Directory containing all build results (optional)
   hello/      # Directory for the `hello` page (created manually)</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">blocks/       # Répértoire contenant les blocs
+bundles/      # Répértoire contenant le résultat de la compilation (optionel)
+  hello/      # Répértoire pour la page `hello` (créé manuellement)</target>
 </trans-unit>
 <trans-unit id="30">
   <source xml:lang="en">An example of a pre-build file structure of a BEM project:</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">Un example d'une structure de fichier pré-construite d'un projet BEM:</target>
 </trans-unit>
 <trans-unit id="31">
   <source xml:lang="en">blocks/           # Directory containing the blocks
 bundles/          # Directory containing all build results
   hello/          # Directory for the `hello` page
   hello.decl.js   # List of BEM entities required for the `hello` page</source>
-  <target xml:lang="fr"></target>
+  <target xml:lang="fr">blocks/           # Répértoire contenant les blocs
+bundles/          # Répértoire contenant le résultat de la compilation
+  hello/          # Directory for the `hello` page
+  hello.decl.js   # List of BEM entities required for the `hello` page</target>
 </trans-unit>
 <trans-unit id="32">
   <source xml:lang="en">An example of a post-build file structure of a BEM project:</source>
